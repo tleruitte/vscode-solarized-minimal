@@ -1,0 +1,90 @@
+:root {
+  /* Background */
+  --base03: #002b36;
+  --base02: #073642;
+  --base2: #eee8d5;
+  --base3: #fdf6e3;
+  /* Content */
+  --base01: #586e75;
+  --base00: #657b83;
+  --base0: #839496;
+  --base1: #93a1a1;
+  /* Accents */
+  --yellow: #b58900;
+  --orange: #cb4b16;
+  --red: #dc322f;
+  --magenta: #d33682;
+  --violet: #6c71c4;
+  --blue: #268bd2;
+  --cyan: #2aa198;
+  --green: #859900;
+}
+
+.color-container {
+  display: grid;
+  grid-auto-flow: column;
+  column-gap: 20px;
+  justify-content: start;
+}
+
+.color {
+  display: flex;
+  width: 100px;
+  height: 100px;
+  align-items: center;
+  justify-content: center;
+  color: var(--base01);
+}
+
+.color--inverted {
+  color: var(--base1);
+}
+
+.base03 {
+  background: var(--base03);
+}
+.base02 {
+  background: var(--base02);
+}
+.base01 {
+  background: var(--base01);
+}
+.base00 {
+  background: var(--base00);
+}
+.base0 {
+  background: var(--base0);
+}
+.base1 {
+  background: var(--base1);
+}
+.base2 {
+  background: var(--base2);
+}
+.base3 {
+  background: var(--base3);
+}
+.yellow {
+  background: var(--yellow);
+}
+.orange {
+  background: var(--orange);
+}
+.red {
+  background: var(--red);
+}
+.magenta {
+  background: var(--magenta);
+}
+.violet {
+  background: var(--violet);
+}
+.blue {
+  background: var(--blue);
+}
+.cyan {
+  background: var(--cyan);
+}
+.green {
+  background: var(--green);
+}

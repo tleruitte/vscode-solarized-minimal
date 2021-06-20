@@ -28,3 +28,8 @@ install the theme.
 
 Now go to Preferences: Color Theme `Ctrl+K Ctrl+T` and select either theme
 from the dropdown.
+
+## Dev
+
+* [Solarized](https://ethanschoonover.com/solarized/)
+* [VSCode theme color](https://code.visualstudio.com/api/references/theme-color)
